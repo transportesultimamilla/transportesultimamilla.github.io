@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 /* COLORS: #433f3e (GRIS) |  #d49b34 (NARANJA) */
 
@@ -113,7 +114,7 @@ body::-webkit-scrollbar-thumb {
 #img{
     padding: 0 20px;
     display: flex;
-    background-image: url("fotos/pales_edit2.jpg");
+    background-image: url("fotos/camion_edit.jpg");
     height: 35rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,7 +164,7 @@ body::-webkit-scrollbar-thumb {
 .contenedor{
     min-width: 230px;
     height: 320px;
-    margin: 0 15px;
+    margin: 10px 15px;
     background-color: #edb100;
     border-radius: 8px 8px 8px 8px;
     cursor: default;
@@ -309,10 +310,7 @@ body::-webkit-scrollbar-thumb {
     .contenedor div:nth-child(2){
         font-size: 1.2em;
     }
-    .contenedor div:nth-child(1){
-        margin-top: 10px;
-        height: 60px;
-    }
+    
     .contenedor div:nth-child(1) h2{
         line-height: 60px;
     }
